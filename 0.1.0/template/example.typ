@@ -52,7 +52,7 @@ To cite a source, add it to bib.yml - this is in the Hayagriva YAML format (if y
 
 = Results
 #figure(
-image("../assets/MSWord.png"),
+image("MSWord.png"),
 caption: [The Caption pop out window from the References Tab in Microsoft Word @source]
 )
 
