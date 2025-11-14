@@ -14,7 +14,7 @@
 
   set document(title: title)
 
-  set text(font: "ARIAL", size: 11pt)
+  set text(font: "Liberation Sans", size: 11pt)
 
   show: word-count.with(exclude: (box, heading.where(level: 1), table, figure.caption))
 
