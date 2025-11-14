@@ -1,4 +1,4 @@
-#import "../src/template.typ": *
+#import "@local/strath-mae-interimst:0.1.0": *
 
 /* 
 
