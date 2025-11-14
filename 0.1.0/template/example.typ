@@ -17,7 +17,7 @@ To cite a source, add it to bib.yml - this is in the Hayagriva YAML format (if y
   title: [Title of Interim Report],
   author: [Joe Bloggs],
   number: [202512345],
-  supervisor: [Dr. Jane Smith],
+  supervisor: "",
   date: [#datetime.today().display("[day]/[month]/[year]")],
   abstract: [#lorem(100)],
   body

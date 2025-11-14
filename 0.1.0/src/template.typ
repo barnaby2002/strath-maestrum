@@ -25,13 +25,25 @@
 
   show figure.caption: it => {emph(it)}
 
-  table(columns: (auto,1fr), stroke: none, 
-  [Class Code/Title:],class,
-  [Title:],title,
-  [Name/Student Number:],[#author, #number],
-  [Supervisor:],supervisor,
-  [Date:],date,
-  [Word count:],[#total-words],)
+  if supervisor == [] or supervisor == "" {
+    
+    table(columns: (auto,1fr), stroke: none, 
+    [Class Code/Title:], 
+    class,
+    [Title:],
+    {title},
+    [Name/Student Number:],[#author, #number],
+    [Date:],date,
+    [Word count:],[#total-words],)
+  } else {
+    table(columns: (auto,1fr), stroke: none, 
+    [Class Code/Title:], class,
+    [Title:], title,
+    [Name/Student Number:],[#author, #number],
+    [Supervisor:], supervisor,
+    [Date:],date,
+    [Word count:],[#total-words],)
+  }
 
   heading(outlined: false, [Abstract])
   abstract //#lorem(n) makes n words of "lorem ipsum"
