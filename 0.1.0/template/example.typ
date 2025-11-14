@@ -43,18 +43,11 @@ To cite a source, add it to bib.yml - this is in the Hayagriva YAML format (if y
   ), caption: [How to insert a caption]
 ) <tableexample>
 
-// 	Step	comment
-// 1	Go to ‘References’ tab	
-// 2	Select ‘Insert Caption’	The pop up appears as figure 1 below.
-// 3	Under ‘Options’, change the Label to the appropriate caption type.	The choices are Table, Figure, or Equation.
-// 4	The caption text can be entered into the ‘Caption’ line within the pop out or added after the caption is inserted.	
-
-
 = Results
 #figure(
 image("MSWord.png"),
 caption: [The Caption pop out window from the References Tab in Microsoft Word @source]
-)
+) <screenshot>
 
 = Discussion
 
